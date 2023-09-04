@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+.kws__navbar{
+    width: 100%;
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(85, 135, 9);
+    padding: 1rem 2rem;
+    color: aliceblue;
+    font-family: 'Capriola', sans-serif;
+
+
+
+
+
+}
+.kws__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.kws__navbar-logo img{
+    width: 150px;
+   
+}
+.kws__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.kws__navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.kws__navbar-links li:hover{
+    color: rgb(101, 161, 12);
+}
+.kws__navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.kws__navbar-login a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+.kws__navbar-login a:hover {
+    border-bottom: 1px solid rgb(100, 129, 6);
+} 
