@@ -3,7 +3,7 @@
 .kws__navbar{
     width: 100%;
     display: flex;
-    border: 2px solid blue;
+    
     justify-content: space-between;
     align-items: center;
     background: rgb(85, 135, 9);

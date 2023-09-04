@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+.kws__header{
+    background-color: #0b8a24;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    
+    align-items: stretch;
+}
+h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+    float: left;
+   
+}
+ img{
+   
+    width: 60%;
+    float: right;
+    height: ;
+   
+    
+}
+p{
+    color: white;
+
+}

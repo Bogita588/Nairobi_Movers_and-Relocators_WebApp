@@ -21,6 +21,8 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import KWS from '../assets/KWS.png';
+import Nairobi from '../assets/Nairobi.jpg';
+
 
 export default {
   
@@ -47,4 +49,5 @@ export default {
   quote,
   gericht,
   KWS,
+  Nairobi,
 };
