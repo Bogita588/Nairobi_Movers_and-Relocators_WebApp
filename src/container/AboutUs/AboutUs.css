@@ -1,0 +1,42 @@
+.kws__aboutus{
+    position: relative;
+}
+.kws__aboutus-overlay{
+    position: absolute;
+    inset: 0;
+}
+.kws__aboutus-overlay img{
+    width: 392px;
+    height: 415px;
+    z-index: 0;
+}
+.kws__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+.kws__aboutus-content_about{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+
+}
+.kws__aboutus-content_knife{
+    margin: 2rem 4rem;
+}
+.kws__aboutus-content_knife img{
+height: 910px;
+}
+.kws__aboutus-content_history{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: right;
+
+}
