@@ -29,3 +29,26 @@ p{
     color: black;
 
 }
+@media (max-width: 768px) {
+    h1{
+        
+        font-size: 20px;
+
+    }
+    p{
+        line-height: 2em;
+        
+    }
+}
+@media (max-width: 2000px) {
+    h1{
+        
+        font-size: 50px;
+
+    }
+    p{
+        line-height: 2em;
+        display: block;
+        
+    }
+}

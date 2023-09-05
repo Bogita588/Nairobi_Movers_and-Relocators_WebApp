@@ -29,17 +29,44 @@
     .kws__aboutus-content_history {
       flex-basis: 100%; /* Full width on small screens */
     }
+    .section__equal-height {
+        flex: none;
+        width: 100%; /* Set full width */
+      }
+      
+      /* Center text in buttons for small screens */
+      .custom__button {
+        text-align: center;
+      }
+      
+      /* Adjust padding for small screens */
+      .section__equal-height {
+        padding: 10px;
+      }
+      
+      /* Adjust font size for small screens */
+      .section__equal-height h1 {
+        font-size: 24px;
+      }
+      
+      .section__equal-height p {
+        font-size: 14px;
+      }
   }
   .custom__button{
-    color: rgb(122, 187, 24);
-    background: rgb(119, 9, 216);
-    font-size: 18px;
+    color: white;
+    background: orange;
+    font-size: 28px;
     margin-top: 1rem;
+    border-radius: 10px; /* Rounded corners */
+     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
   }
   .custom__button:hover{
-    background: magenta;
+    background: lightseagreen;
 
   }
+  
 
 
 /*.kws__aboutus{
