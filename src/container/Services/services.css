@@ -5,6 +5,9 @@
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(22,161,232,1) 25%);
     text-align: center;
+    border-radius: 20px;
+    
+    
     padding: 20px;
     flex: 0 1 calc(33.33% - 20px); /* Adjust the width as needed */
     box-sizing: border-box;
@@ -38,9 +41,13 @@
   
   /* Create a flex container for your services */
   .service-grid {
+    
     display: flex;
     flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust alignment as needed */
   }
+  
   

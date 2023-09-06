@@ -8,10 +8,12 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Services from './Services/Services';
+import Testimony from './Testimonials/Testimony';
 
 export {
   AboutUs,
   Services,
+  Testimony,
   Chef,
   FindUs,
   Footer,

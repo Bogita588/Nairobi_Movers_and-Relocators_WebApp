@@ -66,7 +66,7 @@ const Services = () => {
            <img src={service.image} alt={service.heading} />
          </div>
          <p>{service.paragraph}</p>
-         <button type="button" className='custom__button'>Contact us</button>
+         <button type="button" className='custom__button'>Contact Agents</button>
        </div>
      ))}
    </div>
