@@ -54,8 +54,10 @@
       }
   }
   .custom__button{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(22,75,232,0.989233193277311) 0%, rgba(22,75,232,0.989233193277311) 63%);
     color: white;
-    background: orange;
+    
     font-size: 28px;
     margin-top: 1rem;
     border-radius: 10px; /* Rounded corners */
