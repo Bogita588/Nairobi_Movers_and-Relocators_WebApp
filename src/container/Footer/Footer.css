@@ -1,0 +1,110 @@
+/* Footer container */
+
+  @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+
+.footer {
+    background: rgb(177,20,120);
+    background: linear-gradient(288deg, rgba(177,20,120,1) 23%, rgba(9,118,223,1) 100%);
+    color: #ffffff;
+    padding: 40px 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Patua One', cursive;
+  }
+  
+  /* Footer content container */
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Footer logo */
+  .footer-logo {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Footer links */
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Footer social icons */
+  .footer-social {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  /* Footer bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+  }
+  
+  /* Make the footer responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-logo,
+    .footer-links,
+    .footer-social {
+      flex: none;
+      margin: 0;
+    }
+  
+    .footer-logo h2 {
+      font-size: 20px;
+    }
+  
+    .footer-links ul {
+      flex-direction: row;
+    }
+  
+    .footer-links li {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .footer-social {
+      margin-top: 20px;
+    }
+  }
+  

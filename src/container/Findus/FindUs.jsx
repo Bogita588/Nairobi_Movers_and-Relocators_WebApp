@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './findus.css'; // Import your CSS for styling
+import { FaPaperPlane } from 'react-icons/fa';
 
 const   Findus = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ const   Findus = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="contact-info">
         <h2>Contact Us</h2>
         <p>Phone: Select from national phone numbers</p>
@@ -115,7 +116,7 @@ const   Findus = () => {
             placeholder="Your Message"
           ></textarea>
         </div>
-        <button type="submit">Send Message</button>
+        <button type="submit">Send Message <FaPaperPlane /></button>
       </form>
     </div>
   );

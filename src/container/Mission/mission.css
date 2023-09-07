@@ -1,0 +1,61 @@
+/* Style for the container */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+.mvv-container {
+  
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Add a line between grids */
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+  }
+  
+  /* Style for each grid */
+.mvv-grid {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition on hover */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Default background color */
+  }
+  
+  /* Style for each grid with different background colors */
+  .mvv-grid:nth-child(1) {
+    background-color: #ffcc00; /* Yellow background color */
+    color: #333; /* Text color */
+  }
+  
+  .mvv-grid:nth-child(2) {
+    background-color: #0099cc; /* Blue background color */
+    color: #fff; /* Text color */
+  }
+  
+  .mvv-grid:nth-child(3) {
+    background-color: #ff6666; /* Red background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Change grid background color and text color on hover */
+  .mvv-grid:hover {
+    
+    background-color: #333; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }
+  
+  /* Add responsive styles as needed */
+  @media (max-width: 600px) {
+    .mvv-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .mvv-divider {
+      display: none; /* Hide the line divider on smaller screens */
+    }
+  }
+  

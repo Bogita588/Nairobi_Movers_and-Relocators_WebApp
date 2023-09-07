@@ -1,0 +1,37 @@
+/* Add styles for the ContactDetails component */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+.contact-details {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Spacing around content */
+    font-family: 'Patua One', cursive;
+    text-align: center; /* Center-align text */
+  }
+  
+  .contact-details a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 10px; /* Spacing between links */
+  }
+  
+  /* Style for links on hover */
+  .contact-details a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .contact-details {
+      padding: 5px;
+    }
+  
+    /* Center-align links for smaller screens */
+    .contact-details a {
+      display: block;
+      margin: 5px auto;
+      text-align: center;
+    }
+  }
+  

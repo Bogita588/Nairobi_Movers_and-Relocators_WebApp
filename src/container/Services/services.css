@@ -1,4 +1,5 @@
 /* Apply these styles to your service items */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 
 .service-item {
@@ -6,6 +7,7 @@
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(22,161,232,1) 25%);
     text-align: center;
     border-radius: 20px;
+    font-family: 'Patua One', cursive;
     
     
     padding: 20px;

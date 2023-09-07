@@ -22,6 +22,7 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import KWS from '../assets/KWS.png';
 import Nairobi from '../assets/Nairobi.jpg';
+import bogita from '../assets/bogita.png';
 
 
 export default {
@@ -50,4 +51,5 @@ export default {
   gericht,
   KWS,
   Nairobi,
+  bogita,
 };

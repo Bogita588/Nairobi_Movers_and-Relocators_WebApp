@@ -17,9 +17,9 @@ return(
     </div >
     <ul className="kws__navbar-links">
       <li className="k__nav1"><a href="#home">Home</a></li>
-      <li className="k__nav1"><a href="#attractions">Attractions</a></li>
+      <li className="k__nav1"><a href="#goal">Our Mission</a></li>
       <li className="k__nav1"><a href="#about">About</a></li>
-      <li className="k__nav1"><a href="#awards">Awards</a></li>
+      <li className="k__nav1"><a href="#service">Services</a></li>
       <li className="k__nav1"><a href="#contact">Contact</a></li>
       
       
@@ -28,7 +28,7 @@ return(
    <div className="kws__navbar-login">
     <a href="#login" className='k__nav1'>Login/Register</a>
     < div />
-    <a href="/" className='k__nav1'>Other parks</a>
+    <a href="/" className='k__nav1'>Other Services</a>
 
    </div>
    <div className="kws__navbar-smallscreen">

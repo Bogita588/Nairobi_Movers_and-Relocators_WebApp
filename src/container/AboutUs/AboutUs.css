@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
 .kws__aboutus-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Patua One', cursive;
   }
 
   .section__equal-height {
@@ -59,13 +63,14 @@
     color: white;
     
     font-size: 28px;
+
     margin-top: 1rem;
     border-radius: 10px; /* Rounded corners */
      cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
   .custom__button:hover{
-    background: lightseagreen;
+    background: #20b2aa;
 
   }
   
@@ -119,4 +124,4 @@ border: 3px solid blue;
 
 p{
     margin: 2rem 0;
-}/*
+}*/
