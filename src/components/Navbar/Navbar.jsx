@@ -13,7 +13,7 @@ return(
 
   <nav className="kws__navbar">
     <div className="kws__navbar-logo">
-      <img src ={images.KWS} alt="" />
+      {/*<img src ={images.KWS} alt="" />*/}
     </div >
     <ul className="kws__navbar-links">
       <li className="k__nav1"><a href="#home">Home</a></li>
